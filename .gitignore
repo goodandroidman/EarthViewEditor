@@ -1,0 +1,37 @@
+# ignores following folders
+＃先决条件
+* .d
+
+＃编译的对象文件
+* .slo
+* .lo
+* .o
+* .obj
+* .ilk
+* .pdb
+* .log
+* .exp
+
+＃预编译标题
+* .gch
+* .pch
+
+＃编译动态库
+* .so
+* .dylib
+* .dll
+
+＃ Fortran的模块文件
+* .mod
+* .smod
+
+＃编译静态库
+* .lai
+* .la
+* .a
+* .lib
+
+＃可执行文件
+* .exe
+* .out
+* .app
