@@ -1,0 +1,32 @@
+﻿生成启动时间为 2018/1/15 22:20:18。
+     1>项目“D:\EarthViewEditor\Dependencies\src\Cg-2.2\Cg.2008.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         正在创建“Release\Cg.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       PostBuildEvent:
+         copy "D:\EarthViewEditor\Dependencies\src\Cg-2.2\bin\cg.dll" "D:\EarthViewEditor\Dependencies\src\..\bin\Release" /y
+         copy "D:\EarthViewEditor\Dependencies\src\Cg-2.2\lib\cg.lib" "D:\EarthViewEditor\Dependencies\src\..\lib\Release\" /y
+         mkdir "D:\EarthViewEditor\Dependencies\src\..\include\cg"
+         copy "D:\EarthViewEditor\Dependencies\src\Cg-2.2\include\Cg\*.*" "D:\EarthViewEditor\Dependencies\src\..\include\cg" /y
+         
+         :VCEnd
+         已复制         1 个文件。
+         系统找不到指定的路径。
+         已复制         0 个文件。
+         子目录或文件 D:\EarthViewEditor\Dependencies\src\..\include\cg 已经存在。
+         D:\EarthViewEditor\Dependencies\src\Cg-2.2\include\Cg\cg.h
+         D:\EarthViewEditor\Dependencies\src\Cg-2.2\include\Cg\cgGL_profiles.h
+         D:\EarthViewEditor\Dependencies\src\Cg-2.2\include\Cg\cg_bindlocations.h
+         D:\EarthViewEditor\Dependencies\src\Cg-2.2\include\Cg\cg_datatypes.h
+         D:\EarthViewEditor\Dependencies\src\Cg-2.2\include\Cg\cg_enums.h
+         D:\EarthViewEditor\Dependencies\src\Cg-2.2\include\Cg\cg_errors.h
+         D:\EarthViewEditor\Dependencies\src\Cg-2.2\include\Cg\cg_profiles.h
+         已复制         7 个文件。
+       FinalizeBuildStatus:
+         正在删除文件“Release\Cg.unsuccessfulbuild”。
+         正在对“Release\Cg.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\EarthViewEditor\Dependencies\src\Cg-2.2\Cg.2008.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.25

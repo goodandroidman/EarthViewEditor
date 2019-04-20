@@ -48,6 +48,44 @@ Ogre/Direct3D11/Release
 
 Ogre/GL/Debug
 
+Dependencies/bin
+Dependencies/src/Cg-2.2/Debug
+
+Dependencies/src/FreeImage-3.13.1/Source/FreeImageLib/Debug
+Dependencies/src/FreeImage-3.13.1/Source/FreeImageLib/Release
+
+Dependencies/src/FreeImage-3.13.1/Source/LibJPEG/Debug
+Dependencies/src/FreeImage-3.13.1/Source/LibJPEG/Release
+
+Dependencies/src/FreeImage-3.13.1/Source/LibMNG/Debug
+Dependencies/src/FreeImage-3.13.1/Source/LibMNG/Release
+
+Dependencies/src/FreeImage-3.13.1/Source/LibOpenJPEG/Debug
+Dependencies/src/FreeImage-3.13.1/Source/LibOpenJPEG/Release
+
+Dependencies/src/FreeImage-3.13.1/Source/LibPNG/Debug
+Dependencies/src/FreeImage-3.13.1/Source/LibPNG/Release
+
+Dependencies/src/FreeImage-3.13.1/Source/LibRawLite/Debug
+Dependencies/src/FreeImage-3.13.1/Source/LibRawLite/Release
+
+Dependencies/src/FreeImage-3.13.1/Source/OpenEXR/Debug
+Dependencies/src/FreeImage-3.13.1/Source/OpenEXR/Release
+
+Dependencies/src/FreeImage-3.13.1/Source/LibTIFF/Debug
+Dependencies/src/FreeImage-3.13.1/Source/LibTIFF/Release
+
+Dependencies/src/FreeImage-3.13.1/Source/ZLib/Debug
+Dependencies/src/FreeImage-3.13.1/Source/ZLib/Release
+
+Dependencies/src/ois-1.2.0/dll/debug
+Dependencies/src/ois-1.2.0/dll/release
+
+Dependencies/src/zlib-1.2.3/projects/visualc6/Win32_LIB_Debug
+Dependencies/src/zlib-1.2.3/projects/visualc6/Win32_LIB_Release
+
+Dependencies/src/zziplib-0.13.57/msvc8/Debug
+Dependencies/src/zziplib-0.13.57/msvc8/Release
 ＃先决条件
 * .d
 

@@ -1,0 +1,221 @@
+﻿生成启动时间为 2019/4/13 23:41:46。
+     1>项目“E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\freetype.2008.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\..\..\..\objs\debug\freetype.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\VS2010\VC\bin\CL.exe /c /I..\..\..\include /Zi /nologo /W4 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _LIB /D _CRT_SECURE_NO_WARNINGS /D FT_DEBUG_LEVEL_ERROR /D FT_DEBUG_LEVEL_TRACE /D FT2_BUILD_LIBRARY /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Za /Zc:wchar_t /Zc:forScope /Fo".\..\..\..\objs\debug/" /Fd".\..\..\..\objs\debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\src\autofit\autofit.c ..\..\..\src\bdf\bdf.c ..\..\..\src\cff\cff.c ..\..\..\src\base\ftbase.c ..\..\..\src\base\ftbitmap.c ..\..\..\src\cache\ftcache.c ..\..\..\src\base\ftfstype.c ..\..\..\src\base\ftgasp.c ..\..\..\src\base\ftglyph.c ..\..\..\src\gzip\ftgzip.c ..\..\..\src\base\ftinit.c ..\..\..\src\lzw\ftlzw.c ..\..\..\src\base\ftstroke.c ..\..\..\src\base\ftsystem.c ..\..\..\src\smooth\smooth.c ..\..\..\src\base\ftbbox.c ..\..\..\src\base\ftmm.c ..\..\..\src\base\ftpfr.c ..\..\..\src\base\ftsynth.c ..\..\..\src\base\fttype1.c ..\..\..\src\base\ftwinfnt.c ..\..\..\src\pcf\pcf.c ..\..\..\src\pfr\pfr.c ..\..\..\src\psaux\psaux.c ..\..\..\src\pshinter\pshinter.c ..\..\..\src\psnames\psmodule.c ..\..\..\src\raster\raster.c ..\..\..\src\sfnt\sfnt.c ..\..\..\src\truetype\truetype.c ..\..\..\src\type1\type1.c ..\..\..\src\cid\type1cid.c ..\..\..\src\type42\type42.c ..\..\..\src\winfonts\winfnt.c
+         autofit.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+     1>e:\earthvieweditor\dependencies\src\freetype-2.3.11\src\autofit\afhints.c(555): warning C4100: “get_inflections”: 未引用的形参
+         bdf.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         cff.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         ftbase.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         ftbitmap.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         ftcache.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         ftfstype.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         ftgasp.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         ftglyph.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         ftgzip.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         ftinit.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         ftlzw.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         ftstroke.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         ftsystem.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         smooth.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         ftbbox.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         ftmm.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         ftpfr.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         ftsynth.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         fttype1.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         正在生成代码...
+         正在编译...
+         ftwinfnt.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         pcf.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         pfr.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         psaux.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         pshinter.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         psmodule.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         raster.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         sfnt.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+     1>e:\earthvieweditor\dependencies\src\freetype-2.3.11\src\sfnt\ttload.c(204): warning C4244: “=”: 从“FT_UInt”转换到“FT_UShort”，可能丢失数据
+     1>e:\earthvieweditor\dependencies\src\freetype-2.3.11\src\sfnt\ttload.c(264): warning C4244: “=”: 从“FT_UInt”转换到“FT_UShort”，可能丢失数据
+         truetype.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+     1>e:\earthvieweditor\dependencies\src\freetype-2.3.11\src\truetype\ttgxvar.c(237): warning C4018: “<=”: 有符号/无符号不匹配
+     1>e:\earthvieweditor\dependencies\src\freetype-2.3.11\src\truetype\ttgxvar.c(245): warning C4018: “<=”: 有符号/无符号不匹配
+     1>e:\earthvieweditor\dependencies\src\freetype-2.3.11\src\truetype\ttgxvar.c(253): warning C4018: “<=”: 有符号/无符号不匹配
+     1>e:\earthvieweditor\dependencies\src\freetype-2.3.11\src\truetype\ttgxvar.c(258): warning C4018: “<=”: 有符号/无符号不匹配
+         type1.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         type1cid.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         type42.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         winfnt.c
+     1>d:\VS2010\VC\include\sal.h(109): warning C4001: 使用了非标准扩展“single line comment”
+         正在生成代码...
+         d:\VS2010\VC\bin\CL.exe /c /I..\..\..\include /Zi /nologo /W4 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _LIB /D _CRT_SECURE_NO_WARNINGS /D FT_DEBUG_LEVEL_ERROR /D FT_DEBUG_LEVEL_TRACE /D FT2_BUILD_LIBRARY /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\..\..\..\objs\debug/" /Fd".\..\..\..\objs\debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\ftdebug.c
+         ftdebug.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\.\..\..\..\objs\debug\freetype.lib) 与 Library 的 OutputFile 属性值(E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\objs\win32\vc2005\freetype2311_D.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(freetype) 与 Library 的 OutputFile 属性值(freetype2311_D)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+       Lib:
+         d:\VS2010\VC\bin\Lib.exe /OUT:"..\..\..\objs\win32\vc2005\freetype2311_D.lib" /NOLOGO .\..\..\..\objs\debug/autofit.obj
+         .\..\..\..\objs\debug/bdf.obj
+         .\..\..\..\objs\debug/cff.obj
+         .\..\..\..\objs\debug/ftbase.obj
+         .\..\..\..\objs\debug/ftbitmap.obj
+         .\..\..\..\objs\debug/ftcache.obj
+         .\..\..\..\objs\debug/ftdebug.obj
+         .\..\..\..\objs\debug/ftfstype.obj
+         .\..\..\..\objs\debug/ftgasp.obj
+         .\..\..\..\objs\debug/ftglyph.obj
+         .\..\..\..\objs\debug/ftgzip.obj
+         .\..\..\..\objs\debug/ftinit.obj
+         .\..\..\..\objs\debug/ftlzw.obj
+         .\..\..\..\objs\debug/ftstroke.obj
+         .\..\..\..\objs\debug/ftsystem.obj
+         .\..\..\..\objs\debug/smooth.obj
+         .\..\..\..\objs\debug/ftbbox.obj
+         .\..\..\..\objs\debug/ftmm.obj
+         .\..\..\..\objs\debug/ftpfr.obj
+         .\..\..\..\objs\debug/ftsynth.obj
+         .\..\..\..\objs\debug/fttype1.obj
+         .\..\..\..\objs\debug/ftwinfnt.obj
+         .\..\..\..\objs\debug/pcf.obj
+         .\..\..\..\objs\debug/pfr.obj
+         .\..\..\..\objs\debug/psaux.obj
+         .\..\..\..\objs\debug/pshinter.obj
+         .\..\..\..\objs\debug/psmodule.obj
+         .\..\..\..\objs\debug/raster.obj
+         .\..\..\..\objs\debug/sfnt.obj
+         .\..\..\..\objs\debug/truetype.obj
+         .\..\..\..\objs\debug/type1.obj
+         .\..\..\..\objs\debug/type1cid.obj
+         .\..\..\..\objs\debug/type42.obj
+         .\..\..\..\objs\debug/winfnt.obj
+         freetype.2008.vcxproj -> E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\.\..\..\..\objs\debug\freetype.lib
+       PostBuildEvent:
+         copy "E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\objs\debug\freetype.lib" "E:\EarthViewEditor\Dependencies\src\..\lib\Debug\" /y
+         xcopy "E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\*.*" "E:\EarthViewEditor\Dependencies\src\..\include" /s /y
+         
+         :VCEnd
+         系统找不到指定的文件。
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\ft2build.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\freetype.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftadvanc.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftbbox.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftbdf.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftbitmap.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftcache.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftchapters.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftcid.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\fterrdef.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\fterrors.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftgasp.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftglyph.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftgxval.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftgzip.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftimage.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftincrem.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftlcdfil.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftlist.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftlzw.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftmac.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftmm.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftmodapi.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftmoderr.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftotval.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftoutln.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftpfr.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftrender.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftsizes.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftsnames.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftstroke.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftsynth.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftsystem.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\fttrigon.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\fttypes.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftwinfnt.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ftxf86.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\t1tables.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ttnameid.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\tttables.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\tttags.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\ttunpat.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\config\ftconfig.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\config\ftheader.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\config\ftmodule.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\config\ftoption.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\config\ftstdlib.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\autohint.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\ftcalc.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\ftdebug.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\ftdriver.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\ftgloadr.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\ftmemory.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\ftobjs.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\ftpic.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\ftrfork.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\ftserv.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\ftstream.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\fttrace.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\ftvalid.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\internal.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\pcftypes.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\psaux.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\pshints.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\sfnt.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\t1types.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\tttypes.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\services\svbdf.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\services\svcid.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\services\svgldict.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\services\svgxval.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\services\svkern.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\services\svmm.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\services\svotval.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\services\svpfr.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\services\svpostnm.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\services\svpscmap.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\services\svpsinfo.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\services\svsfnt.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\services\svttcmap.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\services\svtteng.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\services\svttglyf.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\services\svwinfnt.h
+         E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\..\..\..\include\freetype\internal\services\svxf86nm.h
+         复制了 84 个文件
+       FinalizeBuildStatus:
+         正在删除文件“.\..\..\..\objs\debug\freetype.unsuccessfulbuild”。
+         正在对“.\..\..\..\objs\debug\freetype.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\EarthViewEditor\Dependencies\src\freetype-2.3.11\builds\win32\vc2005\freetype.2008.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.85
