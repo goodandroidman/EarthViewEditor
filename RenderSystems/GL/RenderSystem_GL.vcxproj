@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{D16B4034-2F1A-4F08-B175-2C16333A202A}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>RenderSystem_GL</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\bin\Debug</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\bin\obj</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RenderSystem_GL_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Ogre_Compile\Ogre_SRC\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RenderSystem_GL.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RenderSystem_GL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Ogre_Compile\Ogre_SRC\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">RenderSystem_GL.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">RenderSystem_GL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Ogre_Compile\Ogre_SRC\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">RenderSystem_GL.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">RenderSystem_GL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)RenderSystems\GL\include;$(SolutionDir)OgreMain\include;$(SolutionDir)include;$(SolutionDir)Dependencies\include;$(SolutionDir)Dependencies\include\OIS;$(SolutionDir)Dependencies\include\Cg;$(SolutionDir)OgreMain\include\Threading;$(SolutionDir)RenderSystems\GL\src\nvparse\winheaders;$(SolutionDir)RenderSystems\GL\src\win32;$(SolutionDir)RenderSystems\GL\src\GLSL\include;$(SolutionDir)RenderSystems\GL\src\atifs\include;$(SolutionDir)RenderSystems\GL\src\nvparse;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4786;4503;4251;4275;4290;4661;4996;4127;4100</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;OGRE_GLPLUGIN_EXPORTS;CMAKE_INTDIR="Debug";RenderSystem_GL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;OGRE_GLPLUGIN_EXPORTS;CMAKE_INTDIR=\"Debug\";RenderSystem_GL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\include;D:\Ogre_Compile\Ogre_SRC\OgreMain\include;D:\Ogre_Compile\Ogre_SRC\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\OIS;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\Cg;D:\Ogre_Compile\Ogre_SRC;D:\Ogre_Compile\Ogre_SRC\OgreMain\include\Threading;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse\winheaders;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\win32;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\GLSL\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\atifs\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\include;D:\Ogre_Compile\Ogre_SRC\OgreMain\include;D:\Ogre_Compile\Ogre_SRC\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\OIS;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\Cg;D:\Ogre_Compile\Ogre_SRC;D:\Ogre_Compile\Ogre_SRC\OgreMain\include\Threading;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse\winheaders;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\win32;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\GLSL\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\atifs\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;OgreMain_d.lib;glu32.lib;opengl32.lib;FreeImaged_d.lib;zziplibd_d.lib;zlibd_d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)bin\Debug;$(SolutionDir)Dependencies\bin\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)bin/Debug/RenderSystem_GL_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Ogre_Compile/Ogre_SRC/bin/Debug/RenderSystem_GL_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\include;D:\Ogre_Compile\Ogre_SRC\OgreMain\include;D:\Ogre_Compile\Ogre_SRC\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\OIS;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\Cg;D:\Ogre_Compile\Ogre_SRC;D:\Ogre_Compile\Ogre_SRC\OgreMain\include\Threading;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse\winheaders;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\win32;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\GLSL\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\atifs\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4786;4503;4251;4275;4290;4661;4996;4127;4100</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OGRE_GLPLUGIN_EXPORTS;CMAKE_INTDIR="Release";RenderSystem_GL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OGRE_GLPLUGIN_EXPORTS;CMAKE_INTDIR=\"Release\";RenderSystem_GL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\include;D:\Ogre_Compile\Ogre_SRC\OgreMain\include;D:\Ogre_Compile\Ogre_SRC\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\OIS;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\Cg;D:\Ogre_Compile\Ogre_SRC;D:\Ogre_Compile\Ogre_SRC\OgreMain\include\Threading;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse\winheaders;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\win32;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\GLSL\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\atifs\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\include;D:\Ogre_Compile\Ogre_SRC\OgreMain\include;D:\Ogre_Compile\Ogre_SRC\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\OIS;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\Cg;D:\Ogre_Compile\Ogre_SRC;D:\Ogre_Compile\Ogre_SRC\OgreMain\include\Threading;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse\winheaders;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\win32;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\GLSL\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\atifs\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\OgreMain.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib;..\..\Dependencies\lib\Release\FreeImage.lib;..\..\Dependencies\lib\Release\zziplib.lib;..\..\Dependencies\lib\Release\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Ogre_Compile/Ogre_SRC/lib/Release/RenderSystem_GL.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Ogre_Compile/Ogre_SRC/bin/Release/RenderSystem_GL.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\include;D:\Ogre_Compile\Ogre_SRC\OgreMain\include;D:\Ogre_Compile\Ogre_SRC\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\OIS;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\Cg;D:\Ogre_Compile\Ogre_SRC;D:\Ogre_Compile\Ogre_SRC\OgreMain\include\Threading;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse\winheaders;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\win32;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\GLSL\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\atifs\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4786;4503;4251;4275;4290;4661;4996;4127;4100</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OGRE_GLPLUGIN_EXPORTS;CMAKE_INTDIR="MinSizeRel";RenderSystem_GL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OGRE_GLPLUGIN_EXPORTS;CMAKE_INTDIR=\"MinSizeRel\";RenderSystem_GL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\include;D:\Ogre_Compile\Ogre_SRC\OgreMain\include;D:\Ogre_Compile\Ogre_SRC\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\OIS;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\Cg;D:\Ogre_Compile\Ogre_SRC;D:\Ogre_Compile\Ogre_SRC\OgreMain\include\Threading;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse\winheaders;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\win32;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\GLSL\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\atifs\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\include;D:\Ogre_Compile\Ogre_SRC\OgreMain\include;D:\Ogre_Compile\Ogre_SRC\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\OIS;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\Cg;D:\Ogre_Compile\Ogre_SRC;D:\Ogre_Compile\Ogre_SRC\OgreMain\include\Threading;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse\winheaders;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\win32;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\GLSL\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\atifs\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\OgreMain.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib;..\..\Dependencies\lib\Release\FreeImage.lib;..\..\Dependencies\lib\Release\zziplib.lib;..\..\Dependencies\lib\Release\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Ogre_Compile/Ogre_SRC/lib/MinSizeRel/RenderSystem_GL.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Ogre_Compile/Ogre_SRC/bin/MinSizeRel/RenderSystem_GL.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\include;D:\Ogre_Compile\Ogre_SRC\OgreMain\include;D:\Ogre_Compile\Ogre_SRC\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\OIS;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\Cg;D:\Ogre_Compile\Ogre_SRC;D:\Ogre_Compile\Ogre_SRC\OgreMain\include\Threading;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse\winheaders;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\win32;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\GLSL\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\atifs\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4786;4503;4251;4275;4290;4661;4996;4127;4100</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OGRE_GLPLUGIN_EXPORTS;CMAKE_INTDIR="RelWithDebInfo";RenderSystem_GL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OGRE_GLPLUGIN_EXPORTS;CMAKE_INTDIR=\"RelWithDebInfo\";RenderSystem_GL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\include;D:\Ogre_Compile\Ogre_SRC\OgreMain\include;D:\Ogre_Compile\Ogre_SRC\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\OIS;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\Cg;D:\Ogre_Compile\Ogre_SRC;D:\Ogre_Compile\Ogre_SRC\OgreMain\include\Threading;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse\winheaders;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\win32;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\GLSL\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\atifs\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\include;D:\Ogre_Compile\Ogre_SRC\OgreMain\include;D:\Ogre_Compile\Ogre_SRC\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\OIS;D:\Ogre_Compile\Ogre_SRC\Dependencies\include\Cg;D:\Ogre_Compile\Ogre_SRC;D:\Ogre_Compile\Ogre_SRC\OgreMain\include\Threading;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse\winheaders;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\win32;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\GLSL\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\atifs\include;D:\Ogre_Compile\Ogre_SRC\RenderSystems\GL\src\nvparse;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\OgreMain.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib;..\..\Dependencies\lib\Release\FreeImage.lib;..\..\Dependencies\lib\Release\zziplib.lib;..\..\Dependencies\lib\Release\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Ogre_Compile/Ogre_SRC/lib/RelWithDebInfo/RenderSystem_GL.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Ogre_Compile/Ogre_SRC/bin/RelWithDebInfo/RenderSystem_GL.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="include\OgreGLATIFSInit.h" />
+    <ClInclude Include="include\OgreGLContext.h" />
+    <ClInclude Include="include\OgreGLDefaultHardwareBufferManager.h" />
+    <ClInclude Include="include\OgreGLDepthBuffer.h" />
+    <ClInclude Include="include\OgreGLFBOMultiRenderTarget.h" />
+    <ClInclude Include="include\OgreGLFBORenderTexture.h" />
+    <ClInclude Include="include\OgreGLFrameBufferObject.h" />
+    <ClInclude Include="include\OgreGLGpuNvparseProgram.h" />
+    <ClInclude Include="include\OgreGLGpuProgram.h" />
+    <ClInclude Include="include\OgreGLGpuProgramManager.h" />
+    <ClInclude Include="include\OgreGLHardwareBufferManager.h" />
+    <ClInclude Include="include\OgreGLHardwareIndexBuffer.h" />
+    <ClInclude Include="include\OgreGLHardwareOcclusionQuery.h" />
+    <ClInclude Include="include\OgreGLHardwarePixelBuffer.h" />
+    <ClInclude Include="include\OgreGLHardwareVertexBuffer.h" />
+    <ClInclude Include="include\OgreGLPBRenderTexture.h" />
+    <ClInclude Include="include\OgreGLPBuffer.h" />
+    <ClInclude Include="include\OgreGLPixelFormat.h" />
+    <ClInclude Include="include\OgreGLPlugin.h" />
+    <ClInclude Include="include\OgreGLPrerequisites.h" />
+    <ClInclude Include="include\OgreGLRenderSystem.h" />
+    <ClInclude Include="include\OgreGLRenderTexture.h" />
+    <ClInclude Include="include\OgreGLRenderToVertexBuffer.h" />
+    <ClInclude Include="include\OgreGLSupport.h" />
+    <ClInclude Include="include\OgreGLTexture.h" />
+    <ClInclude Include="include\OgreGLTextureManager.h" />
+    <ClInclude Include="src\GLSL\include\OgreGLSLExtSupport.h" />
+    <ClInclude Include="src\GLSL\include\OgreGLSLGpuProgram.h" />
+    <ClInclude Include="src\GLSL\include\OgreGLSLLinkProgram.h" />
+    <ClInclude Include="src\GLSL\include\OgreGLSLLinkProgramManager.h" />
+    <ClInclude Include="src\GLSL\include\OgreGLSLPreprocessor.h" />
+    <ClInclude Include="src\GLSL\include\OgreGLSLProgramFactory.h" />
+    <ClInclude Include="src\GLSL\include\OgreGLSLProgram.h" />
+    <ClInclude Include="src\atifs\include\ATI_FS_GLGpuProgram.h" />
+    <ClInclude Include="src\atifs\include\Compiler2Pass.h" />
+    <ClInclude Include="src\atifs\include\ps_1_4.h" />
+    <ClInclude Include="src\nvparse\macro.h" />
+    <ClInclude Include="src\nvparse\nvparse_errors.h" />
+    <ClInclude Include="src\nvparse\nvparse_externs.h" />
+    <ClInclude Include="src\nvparse\nvparse.h" />
+    <ClInclude Include="src\nvparse\_ps1.0_parser.h" />
+    <ClInclude Include="src\nvparse\ps1.0_program.h" />
+    <ClInclude Include="src\nvparse\rc1.0_combiners.h" />
+    <ClInclude Include="src\nvparse\rc1.0_final.h" />
+    <ClInclude Include="src\nvparse\rc1.0_general.h" />
+    <ClInclude Include="src\nvparse\_rc1.0_parser.h" />
+    <ClInclude Include="src\nvparse\rc1.0_register.h" />
+    <ClInclude Include="src\nvparse\ts1.0_inst.h" />
+    <ClInclude Include="src\nvparse\ts1.0_inst_list.h" />
+    <ClInclude Include="src\nvparse\_ts1.0_parser.h" />
+    <ClInclude Include="src\nvparse\vs1.0_inst.h" />
+    <ClInclude Include="src\nvparse\vs1.0_inst_list.h" />
+    <ClInclude Include="src\nvparse\_vs1.0_parser.h" />
+    <ClInclude Include="include\OgreWin32Context.h" />
+    <ClInclude Include="include\OgreWin32GLSupport.h" />
+    <ClInclude Include="include\OgreWin32Prerequisites.h" />
+    <ClInclude Include="include\OgreWin32RenderTexture.h" />
+    <ClInclude Include="include\OgreWin32Window.h" />
+    <ClInclude Include="src\win32\OgreGLUtil.h" />
+    <ClCompile Include="src\GLSL\src\OgreGLSLExtSupport.cpp" />
+    <ClCompile Include="src\GLSL\src\OgreGLSLGpuProgram.cpp" />
+    <ClCompile Include="src\GLSL\src\OgreGLSLLinkProgram.cpp" />
+    <ClCompile Include="src\GLSL\src\OgreGLSLLinkProgramManager.cpp" />
+    <ClCompile Include="src\GLSL\src\OgreGLSLPreprocessor.cpp" />
+    <ClCompile Include="src\GLSL\src\OgreGLSLProgram.cpp" />
+    <ClCompile Include="src\GLSL\src\OgreGLSLProgramFactory.cpp" />
+    <ClCompile Include="src\atifs\src\ATI_FS_GLGpuProgram.cpp" />
+    <ClCompile Include="src\atifs\src\Compiler2Pass.cpp" />
+    <ClCompile Include="src\atifs\src\ps_1_4.cpp" />
+    <ClCompile Include="src\nvparse\avp1.0_impl.cpp" />
+    <ClCompile Include="src\nvparse\nvparse.cpp" />
+    <ClCompile Include="src\nvparse\nvparse_errors.cpp" />
+    <ClCompile Include="src\nvparse\_ps1.0_lexer.cpp" />
+    <ClCompile Include="src\nvparse\_ps1.0_parser.cpp" />
+    <ClCompile Include="src\nvparse\ps1.0_program.cpp" />
+    <ClCompile Include="src\nvparse\rc1.0_combiners.cpp" />
+    <ClCompile Include="src\nvparse\rc1.0_final.cpp" />
+    <ClCompile Include="src\nvparse\rc1.0_general.cpp" />
+    <ClCompile Include="src\nvparse\_rc1.0_lexer.cpp" />
+    <ClCompile Include="src\nvparse\_rc1.0_parser.cpp" />
+    <ClCompile Include="src\nvparse\ts1.0_inst.cpp" />
+    <ClCompile Include="src\nvparse\ts1.0_inst_list.cpp" />
+    <ClCompile Include="src\nvparse\_ts1.0_lexer.cpp" />
+    <ClCompile Include="src\nvparse\_ts1.0_parser.cpp" />
+    <ClCompile Include="src\nvparse\vcp1.0_impl.cpp" />
+    <ClCompile Include="src\nvparse\vp1.0_impl.cpp" />
+    <ClCompile Include="src\nvparse\vs1.0_inst.cpp" />
+    <ClCompile Include="src\nvparse\vs1.0_inst_list.cpp" />
+    <ClCompile Include="src\nvparse\_vs1.0_lexer.cpp" />
+    <ClCompile Include="src\nvparse\_vs1.0_parser.cpp" />
+    <ClCompile Include="src\nvparse\vsp1.0_impl.cpp" />
+    <ClCompile Include="src\OgreWin32GLSupport.cpp" />
+    <ClCompile Include="src\OgreWin32RenderTexture.cpp" />
+    <ClCompile Include="src\OgreWin32Window.cpp" />
+    <ClCompile Include="src\win32\OgreWin32Context.cpp" />
+    <ClCompile Include="src\OgreGLATIFSInit.cpp" />
+    <ClCompile Include="src\OgreGLContext.cpp" />
+    <ClCompile Include="src\OgreGLDefaultHardwareBufferManager.cpp" />
+    <ClCompile Include="src\OgreGLDepthBuffer.cpp" />
+    <ClCompile Include="src\OgreGLEngineDll.cpp" />
+    <ClCompile Include="src\OgreGLFBOMultiRenderTarget.cpp" />
+    <ClCompile Include="src\OgreGLFBORenderTexture.cpp" />
+    <ClCompile Include="src\OgreGLFrameBufferObject.cpp" />
+    <ClCompile Include="src\OgreGLGpuNvparseProgram.cpp" />
+    <ClCompile Include="src\OgreGLGpuProgram.cpp" />
+    <ClCompile Include="src\OgreGLGpuProgramManager.cpp" />
+    <ClCompile Include="src\OgreGLHardwareBufferManager.cpp" />
+    <ClCompile Include="src\OgreGLHardwareIndexBuffer.cpp" />
+    <ClCompile Include="src\OgreGLHardwareOcclusionQuery.cpp" />
+    <ClCompile Include="src\OgreGLHardwarePixelBuffer.cpp" />
+    <ClCompile Include="src\OgreGLHardwareVertexBuffer.cpp" />
+    <ClCompile Include="src\OgreGLPBRenderTexture.cpp" />
+    <ClCompile Include="src\OgreGLPixelFormat.cpp" />
+    <ClCompile Include="src\OgreGLPlugin.cpp" />
+    <ClCompile Include="src\OgreGLRenderSystem.cpp" />
+    <ClCompile Include="src\OgreGLRenderTexture.cpp" />
+    <ClCompile Include="src\OgreGLRenderToVertexBuffer.cpp" />
+    <ClCompile Include="src\OgreGLSupport.cpp" />
+    <ClCompile Include="src\OgreGLTexture.cpp" />
+    <ClCompile Include="src\OgreGLTextureManager.cpp" />
+    <ClCompile Include="src\glew.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Ogre_Compile/Ogre_SRC/OgreMain/OgreMain.vcxproj">
+      <Project>F2495B71-A670-47FC-A696-C206E2717E4A</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

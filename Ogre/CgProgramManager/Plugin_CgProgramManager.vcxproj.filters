@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{6db488f8-d295-41f5-af06-430bd632d355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{f10ee969-ccb9-466f-a753-c29a3bcf1877}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OgreCgFxScriptLoader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="OgreCgPlugin.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="OgreCgProgram.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="OgreCgProgramFactory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="OgreCgProgramManagerDll.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\OGRE\PlugIns\CgProgramManager\OgreCgFxScriptLoader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\OGRE\PlugIns\CgProgramManager\OgreCgPlugin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\OGRE\PlugIns\CgProgramManager\OgreCgPrerequisites.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\OGRE\PlugIns\CgProgramManager\OgreCgProgram.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\OGRE\PlugIns\CgProgramManager\OgreCgProgramFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
