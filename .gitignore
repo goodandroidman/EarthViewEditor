@@ -1,4 +1,6 @@
 # ignores following folders
+bin/
+build/
 ＃先决条件
 * .d
 
