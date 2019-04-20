@@ -6,6 +6,10 @@
 * .lo
 * .o
 * .obj
+* .ilk
+* .pdb
+* .log
+* .exp
 
 ＃预编译标题
 * .gch
