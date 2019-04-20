@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/File">
+        <file>exit.svg</file>
+        <file>filenew.svg</file>
+        <file>fileopen.svg</file>
+        <file>filesave.svg</file>
+    </qresource>
+    <qresource prefix="/Tool">
+        <file>move.svg</file>
+        <file>rotate.svg</file>
+        <file>scale.svg</file>
+        <file>select.svg</file>
+    </qresource>
+    <qresource prefix="/View">
+        <file>entity.svg</file>
+        <file>info.svg</file>
+        <file>properties.svg</file>
+        <file>scene.svg</file>
+    </qresource>
+    <qresource prefix="/List">
+        <file>relight.svg</file>
+        <file>splatgrass.svg</file>
+        <file>delete.svg</file>
+    </qresource>
+</RCC>

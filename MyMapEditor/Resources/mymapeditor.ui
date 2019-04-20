@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyMapEditorClass</class>
+ <widget class="QMainWindow" name="MyMapEditorClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>地图编辑器</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>菜单</string>
+    </property>
+    <addaction name="mActionNew"/>
+    <addaction name="separator"/>
+    <addaction name="mActionOpen"/>
+    <addaction name="mActionSave"/>
+    <addaction name="separator"/>
+    <addaction name="mActionExit"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>工具</string>
+    </property>
+    <addaction name="mActionSelect"/>
+    <addaction name="mActionMove"/>
+    <addaction name="mActionScale"/>
+    <addaction name="mActionRotate"/>
+    <addaction name="separator"/>
+    <addaction name="mActionUp"/>
+    <addaction name="mActionNext"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>视图</string>
+    </property>
+    <addaction name="mActionList"/>
+    <addaction name="separator"/>
+    <addaction name="mActionResource"/>
+    <addaction name="mActionProperty"/>
+    <addaction name="separator"/>
+    <addaction name="mActionLog"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="mActionNew"/>
+   <addaction name="mActionOpen"/>
+   <addaction name="mActionSave"/>
+   <addaction name="separator"/>
+   <addaction name="mActionSelect"/>
+   <addaction name="mActionMove"/>
+   <addaction name="mActionScale"/>
+   <addaction name="mActionRotate"/>
+   <addaction name="separator"/>
+   <addaction name="mActionList"/>
+   <addaction name="mActionResource"/>
+   <addaction name="mActionProperty"/>
+   <addaction name="mActionLog"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="mActionNew">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="mymapeditor.qrc">
+     <normaloff>:/File/filenew.svg</normaloff>:/File/filenew.svg</iconset>
+   </property>
+   <property name="text">
+    <string>新建</string>
+   </property>
+  </action>
+  <action name="mActionOpen">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="mymapeditor.qrc">
+     <normaloff>:/File/fileopen.svg</normaloff>:/File/fileopen.svg</iconset>
+   </property>
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </action>
+  <action name="mActionSave">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="mymapeditor.qrc">
+     <normaloff>:/File/filesave.svg</normaloff>:/File/filesave.svg</iconset>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </action>
+  <action name="mActionExit">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="mymapeditor.qrc">
+     <normaloff>:/File/exit.svg</normaloff>:/File/exit.svg</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="mActionSelect">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="mymapeditor.qrc">
+     <normaloff>:/Tool/select.svg</normaloff>:/Tool/select.svg</iconset>
+   </property>
+   <property name="text">
+    <string>选择</string>
+   </property>
+  </action>
+  <action name="mActionMove">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="mymapeditor.qrc">
+     <normaloff>:/Tool/move.svg</normaloff>:/Tool/move.svg</iconset>
+   </property>
+   <property name="text">
+    <string>移动</string>
+   </property>
+  </action>
+  <action name="mActionScale">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="mymapeditor.qrc">
+     <normaloff>:/Tool/scale.svg</normaloff>:/Tool/scale.svg</iconset>
+   </property>
+   <property name="text">
+    <string>缩放</string>
+   </property>
+  </action>
+  <action name="mActionRotate">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="mymapeditor.qrc">
+     <normaloff>:/Tool/rotate.svg</normaloff>:/Tool/rotate.svg</iconset>
+   </property>
+   <property name="text">
+    <string>旋转</string>
+   </property>
+  </action>
+  <action name="mActionUp">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>上一步</string>
+   </property>
+  </action>
+  <action name="mActionNext">
+   <property name="text">
+    <string>下一步</string>
+   </property>
+  </action>
+  <action name="mActionList">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="mymapeditor.qrc">
+     <normaloff>:/View/scene.svg</normaloff>:/View/scene.svg</iconset>
+   </property>
+   <property name="text">
+    <string>列表</string>
+   </property>
+  </action>
+  <action name="mActionResource">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="mymapeditor.qrc">
+     <normaloff>:/View/entity.svg</normaloff>:/View/entity.svg</iconset>
+   </property>
+   <property name="text">
+    <string>资源</string>
+   </property>
+  </action>
+  <action name="mActionProperty">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="mymapeditor.qrc">
+     <normaloff>:/View/properties.svg</normaloff>:/View/properties.svg</iconset>
+   </property>
+   <property name="text">
+    <string>属性</string>
+   </property>
+  </action>
+  <action name="mActionLog">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="mymapeditor.qrc">
+     <normaloff>:/View/info.svg</normaloff>:/View/info.svg</iconset>
+   </property>
+   <property name="text">
+    <string>日志</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="mymapeditor.qrc"/>
+ </resources>
+ <connections/>
+</ui>
