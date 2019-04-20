@@ -1,6 +1,9 @@
 # ignores following folders
 bin/
-build/
+BSPSceneManager/CMakeFiles
+BSPSceneManager/obj
+BSPSceneManager/Plugin_BSPSceneManager.dir
+BSPSceneManager/cmake_install.cmake
 ＃先决条件
 * .d
 
